@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    // 制定ECMAScript目标版本
+    "target": "es2017",
+    // 制定生成哪个木块系统代码
+    "module": "commonjs",
+    // 删除注释
+    "removeComments": false,
+    // 保留const 和 enum 声明
+    "preserveConstEnums": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    // 不允许隐式的any类型
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "lib",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictNullChecks": true,
+    // 生成目标文件的sourcMap文件
+    "sourceMap": true,
+    "baseUrl": ".",
+    "rootDir": ".",
+    "jsx": "preserve",
+    // 允许编译javascript文件
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "typeRoots": ["node_modules/@types"]
+  },
+  "include": ["./src", "global.d.ts"],
+  // 是否在保存文件时重新生成文件
+  "compileOnSave": false
+}
