@@ -1,12 +1,9 @@
 <template>
-  <view class="index">
-    <text>{{ msg }}</text>
-  </view>
+  <main>
+    <nut-button type="primary">微信一键登录</nut-button>
+  </main>
 </template>
 
 <script setup>
-import { ref } from "vue";
-import "./index.less";
-
-const msg = ref("page Index");
+import './index.less'
 </script>

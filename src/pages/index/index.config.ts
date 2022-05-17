@@ -1,3 +1,3 @@
 export default definePageConfig({
-  navigationBarTitleText: "校友会",
-});
+  navigationBarTitleText: '校友会'
+})

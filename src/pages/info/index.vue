@@ -5,8 +5,8 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
-import "./index.less";
+import { ref } from 'vue'
+import './index.less'
 
-const msg = ref("page Index");
+const msg = ref('page Index')
 </script>
