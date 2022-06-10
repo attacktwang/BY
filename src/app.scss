@@ -1,0 +1,9 @@
+@import './styles/common.scss';
+page {
+  height: 100%;
+  overflow: hidden;
+  .page-container {
+    height: 100%;
+    overflow-y: auto;
+  }
+}

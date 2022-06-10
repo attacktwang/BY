@@ -1,9 +1,7 @@
 <template>
-  <main>
-    <nut-button type="primary">微信一键登录</nut-button>
-  </main>
+  <view class="page-contaienr page-mine"></view>
 </template>
 
 <script setup>
-import './index.less'
+import './index.scss'
 </script>

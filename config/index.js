@@ -26,6 +26,9 @@ const config = {
     options: {}
   },
   framework: 'vue3',
+  sass: {
+    data: '@import "./src/styles/nutui/variables.scss";'
+  },
   mini: {
     postcss: {
       pxtransform: {

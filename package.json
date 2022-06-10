@@ -6,7 +6,7 @@
   "templateInfo": {
     "name": "default",
     "typescript": true,
-    "css": "less"
+    "css": "sass"
   },
   "scripts": {
     "serve": "npm run dev:weapp",

@@ -6,7 +6,7 @@
 
 <script setup>
 import { ref } from 'vue'
-import './index.less'
+import './index.scss'
 
 const msg = ref('page Index')
 </script>
